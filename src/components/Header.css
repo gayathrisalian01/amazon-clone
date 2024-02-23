@@ -8,9 +8,50 @@
   }
   
   .header__logo {
-    font-size: 30px;
-    font-weight: bold;
+    background-image: url("../images/amazon-logo.png");
+    background-size: contain;
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
   }
+  .header__location {
+    padding: 10px;
+    width: auto;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .deliver {
+    color: #d6d6d6;
+    font-weight:bold;
+  }
+  
+  .location__container {
+    margin-bottom: 5px;
+  }
+  
+  .location__icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    background-image: url("../images/location-icon.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+  }
+  
+  .location__text {
+    color: #fff;
+    font-weight: bold;
+    margin-left: 5px;
+  }
+  
+  
   
   .header__search {
     display: flex;
